@@ -1,14 +1,14 @@
 public class Fraction {
-    private int denumerateur;
+    private int denominateur;
     private int numerateur;
-    public Fraction(int denumerateur,int numerateur) {
-        this.denumerateur=denumerateur;
+    public Fraction(int denominateur,int numerateur) {
+        this.denominateur=denominateur;
         this.numerateur=numerateur;
 
     }
     public String toString()
     {
-        String str = this.numerateur + "et " + this.denumerateur;
+        String str = this.numerateur + "et " + this.denominateur;
         return str;
     }
 }
